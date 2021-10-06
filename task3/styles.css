@@ -15,12 +15,11 @@ body {
 }
 .header {
   flex: 0 0 auto;
+  background-image: linear-gradient(60deg, red, orange);
 }
 h1 {
-  margin: 0;
   color: #fff;
   text-align: center;
-  background-image: linear-gradient(60deg, red, orange);
 }
 
 .main {
