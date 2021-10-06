@@ -1,88 +1,22 @@
-* {
-  box-sizing: border-box;
-}
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  color: #555;
-  height: 100%;
+  font-size: 18px;
+}
+.font-in-px {
+  font-size: 27px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.header {
-  flex: 0 0 auto;
-  background-image: linear-gradient(60deg, red, orange);
-}
-h1 {
-  color: #fff;
-  text-align: center;
+.font-in-em {
+  font-size: 1.5em;
 }
 
-.main {
-  flex: 1 0 auto;
-  display: flex;
-}
-
-.navigation {
-  width: 20%;
-  padding: 0.5em;
-}
-
-.navigation > .nav-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.navigation > .nav-list > .nav-list-item {
-  background-color: #808080;
-  color: #fff;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  padding: 0 0.5em;
-}
-
-.nav-list-link {
-  text-decoration: none;
-  color: #fff;
-}
-
-.section {
-  width: 60%;
-  padding: 0.5em;
-  font-size: 1.25em;
-}
-
-.section__header {
+.font-in-vw {
   font-size: 5vw;
-  text-align: center;
 }
 
-.section > .units-list {
-  line-height: 1.75em;
+.font-in-percents {
+  font-size: 150%;
 }
 
-.news {
-  width: 20%;
-  padding: 0.5em;
-}
-
-.css-units {
-  color: #8b0000;
-  background-color: #e5e5e5;
-  font-size: 1.125em;
-  font-weight: 700;
-}
-
-.footer {
-  flex: 0 0 auto;
-  background-color: #e5e5e5;
-  padding: 0.5em;
-  text-align: center;
+.font-in-rem {
+  font-size: 1.5rem;
 }
